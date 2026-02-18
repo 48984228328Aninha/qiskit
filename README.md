@@ -4,9 +4,11 @@ Um repositório para estudar a linguagem qiskit e construir circuitos utilizando
 ### - Link da documentação oficial utilizada para estudo: 
 - https://quantum.cloud.ibm.com/docs/pt/guides/construct-circuits
 ### - Link da documentação para transpilador: 
--https://quantum.cloud.ibm.com/docs/pt/guides/construct-circuits
+- https://quantum.cloud.ibm.com/docs/pt/guides/construct-circuits
 ### - Link para documentação do estimador: 
--https://quantum.cloud.ibm.com/docs/pt/guides/get-started-with-primitives
+- https://quantum.cloud.ibm.com/docs/pt/guides/get-started-with-primitives
+### - Link documentação Qiskit supino:
+- https://github.com/qiskit/benchpress
 
 - Site utilizado: IBM Quantum Learning.
 
