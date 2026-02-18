@@ -11,3 +11,8 @@ qr3 = QuantumRegister(3, "creg1")
 combined_circ = QuantumCircuit(qr1, qr2, qr3)
 
 combined_circ.qubits
+
+
+desired_qubit = qr2[0]
+print("Index:", combined_circ.find_bit(desired_qubit).index)
+print("Register", combined_circ.find_bit(desired_qubit).registers)
