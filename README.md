@@ -72,8 +72,9 @@ combined_circ.data
 - [] Aplicar shots
 - [] Bell State, ver 50/50
 
+---------------------------------------------------------------------------
+
 ```
 author: Amanda Rodrigues de Siqueira
-```
 ```
 
