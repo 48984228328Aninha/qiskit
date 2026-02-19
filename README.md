@@ -63,6 +63,18 @@ print("Register", combined_circ.find_bit(desired_qubit).registers)
 combined_circ.x(0)
 combined_circ.data
 ```
+
+- [x] Aplicar Hadamard, uma porta lógica.
+```
+combined_circ.h(qr1)
+```
+
+- [x] Medição de qubit
+```
+combined_circ.measure(qr1[0], qr3[0])
+combined_circ.measure(qr1[1], qr3[1])
+combined_circ.measure(qr2[0], qr3[2])
+```
 # Próximos passos:
 - [] criar entrelaçamento
 - [] circuito Bell State
