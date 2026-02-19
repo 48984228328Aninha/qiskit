@@ -1,5 +1,5 @@
 # QISKIT
-Um repositório para estudar a linguagem qiskit e construir circuitos utilizando um hardware comum. Meu objetivo é ir do zero até o mais avançado neste repositório, sempre documentando minhas mudanças.
+Um repositório para estudar a linguagem qiskit e construir circuitos utilizando um hardware comum. Meu objetivo é ir do zero até o mais avançado neste repositório, sempre documentando minhas mudanças, é público e com o intuito de fazer outras pessoas aprenderem junto.
 
 ### - Link da documentação oficial utilizada para estudo: 
 - https://quantum.cloud.ibm.com/docs/pt/guides/construct-circuits
