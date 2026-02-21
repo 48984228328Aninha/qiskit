@@ -1,5 +1,6 @@
 from qiskit import QuantumCircuit
 from qiskit.circuit import QuantumRegister, ClassicalRegister
+from qiskit.circuit.library import HGate
 
 qc = QuantumCircuit(2)
 qc.qubits
@@ -18,8 +19,22 @@ combined_circ.measure(qr1[0], qr3[0])
 combined_circ.measure(qr1[1], qr3[1])
 combined_circ.measure(qr2[0], qr3[2])
 
-print(combined_circ.draw)
+
 
 desired_qubit = qr2[0]
 print("Index:", combined_circ.find_bit(desired_qubit).index)
 print("Register", combined_circ.find_bit(desired_qubit).registers)
+
+combined_circ.x(0)
+combined_circ.data
+print(combined_circ.draw)
+
+qc.data[0].operation.definition.draw("mpl")
+
+
+qc = QuantumCircuit(1)
+qc.append(
+    HGate(),
+    [0],
+)
+qc.draw("mpl")
