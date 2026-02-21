@@ -49,3 +49,8 @@ qc_b.y(1)
 
 combined = qc_a.compose(qc_b, qubits=[1,3])
 combined.draw("mpl")
+
+inst = qc_b.to_instruction()
+qc_a.append(inst, [1,3])
+
+qc_a.draw("mpl")
