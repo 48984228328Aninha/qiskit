@@ -17,6 +17,21 @@ Um repositório para estudar a linguagem qiskit e construir circuitos utilizando
 - QuantumRegister
 - ClassicalRegister
 
+# Explicação simples antes de mexer com qubits.
+- A computação clássica usa bits como 0 e 1.
+- A computação quântica funciona como uma bússola, o estado será definido por um ponto em uma esfera e para mudar é necessário fazer uma rotação (imagine um plano cartesiano 3D com eixos x,y e z)
+- U3 é uma matriz que leva a qualquer ponto somente com três coordenadas: U3(a, b, c)
+a = rotação para cima
+b = rotação para os lados
+c = fase (ângulo)
+
+<div align=center>
+<img width="156" height="106" alt="image" src="https://github.com/user-attachments/assets/fca0817e-1fef-457f-a49d-35a9a83837bd" />
+</div>
+
+
+- É como se fosse ponteiros de um relógio! 
+
 Primeiro passo
 - [x] Criar um circuito com 2 qubits.
 - Passo a passo: importar a biblioteca QuantumCircuit, sem registradores a princípio.
