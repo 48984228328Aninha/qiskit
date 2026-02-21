@@ -38,3 +38,14 @@ qc.append(
     [0],
 )
 qc.draw("mpl")
+
+qc_a = QuantumCircuit(4)
+
+qc_a.x(0)
+
+qc_b = QuantumCircuit(2, name="qc_b")
+qc_b.y(0)
+qc_b.y(1)
+
+combined = qc_a.compose(qc_b, qubits=[1,3])
+combined.draw("mpl")
