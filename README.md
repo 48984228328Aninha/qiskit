@@ -104,11 +104,22 @@ qc.append(
     [0],
 )
 qc.draw("mpl")
-
 ```
 <div align=center>
 <img src="https://quantum.cloud.ibm.com/docs/images/guides/construct-circuits/extracted-outputs/66813cae-9841-47ea-96b7-8fd7b82e9759-0.svg">
 </div>
+
+- [x] Juntar dois circuitos com compose
+```
+qc_a.x(0)
+
+qc_b = QuantumCircuit(2, name="qc_b")
+qc_b.y(0)
+qc_b.y(1)
+
+combined = qc_a.compose(qc_b, qubits=[1,3])
+combined.draw("mpl")
+```
 
 # Próximos passos:
 - [] criar entrelaçamento
