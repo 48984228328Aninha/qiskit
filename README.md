@@ -75,6 +75,12 @@ combined_circ.measure(qr1[0], qr3[0])
 combined_circ.measure(qr1[1], qr3[1])
 combined_circ.measure(qr2[0], qr3[2])
 ```
+
+- [x] Localizar o primeiro registrador, focar no objeto dentro dele (o qubit) e acessar o circuito interno
+```
+qc.data[0].operation.definition.draw("mpl")
+```
+
 # Próximos passos:
 - [] criar entrelaçamento
 - [] circuito Bell State
