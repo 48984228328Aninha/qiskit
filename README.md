@@ -127,16 +127,21 @@ inst = qc_b.to_instruction()
 qc_a.append(inst, [1,3])
 
 qc_a.draw("mpl")
+
 ```
+<div align=center>
+<img src="https://quantum.cloud.ibm.com/docs/images/guides/construct-circuits/extracted-outputs/81b682dd-45cb-4492-809e-d9e8ebbf5600-0.svg">
+</div>
 
 - [x] Fazer metódo decompose. Ele gera um novo circuito e não mexe no atual
 ```
 qc_a.decompose().draw("mpl")
 ```
-
 <div align=center>
-<img src="https://quantum.cloud.ibm.com/docs/images/guides/construct-circuits/extracted-outputs/81b682dd-45cb-4492-809e-d9e8ebbf5600-0.svg">
+<img src="https://quantum.cloud.ibm.com/docs/images/guides/construct-circuits/extracted-outputs/3c0633db-929b-4428-a888-7a3d493bd6dd-0.svg">
 </div>
+
+
 
 # Próximos passos:
 - [ ] criar entrelaçamento
