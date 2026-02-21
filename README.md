@@ -1,4 +1,4 @@
-# QISKIT
+<img width="156" height="106" alt="image" src="https://github.com/user-attachments/assets/9bf0e2ca-f14c-4ce6-a048-9e6bad47f490" /># QISKIT
 Um repositório para estudar a linguagem qiskit e construir circuitos utilizando um hardware comum. Meu objetivo é ir do zero até o mais avançado neste repositório, sempre documentando minhas mudanças, é público e com o intuito de fazer outras pessoas aprenderem junto.
 
 ### - Link da documentação oficial utilizada para estudo: 
@@ -95,6 +95,20 @@ combined_circ.measure(qr2[0], qr3[2])
 ```
 qc.data[0].operation.definition.draw("mpl")
 ```
+
+- [x] Fazer um circuito utilizando append para forma mais geral
+```
+qc = QuantumCircuit(1)
+qc.append(
+    HGate(),
+    [0],
+)
+qc.draw("mpl")
+
+```
+<div align=center>
+<img src="https://quantum.cloud.ibm.com/docs/images/guides/construct-circuits/extracted-outputs/66813cae-9841-47ea-96b7-8fd7b82e9759-0.svg">
+</div>
 
 # Próximos passos:
 - [] criar entrelaçamento
